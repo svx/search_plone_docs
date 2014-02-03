@@ -17,8 +17,8 @@ Open the command palette (cmd-shift-p) and choose "Search PloneDocs" while your 
 
 Make a keybind by adding the following to your `User/Default(OSX).sublime-keymap`::
 
-  { "keys": ["super+shift+a"], "command": "plonedocs_search_selection" },
-  { "keys": ["ctrl+shift+a"], "command": "plonedocs_search_from_input" }
+    { "keys": ["super+shift+a"], "command": "plonedocs_search_selection" },
+    { "keys": ["ctrl+shift+a"], "command": "plonedocs_search_from_input" }
 
 
 Install
@@ -35,13 +35,13 @@ With Git
 OSX
 +++
 ::
-  $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-  $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+    $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
 
 Linux (Ubuntu like distros)
 +++++++++++++++++++++++++++
 ::
-  $ cd ~/.config/sublime-text-2/Packages/
-  $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
+    $ cd ~/.config/sublime-text-2/Packages/
+    $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
 
 
