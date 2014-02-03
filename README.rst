@@ -1,15 +1,17 @@
-# Sublime Text 2/3 plugin: Search developer.plone.org
+A Sublime Text 2/3 plugin
+-------------------------
 
 A command to search developer.plone.org for the current word.
 
-## Supports
+Supports
+~~~~~~~~
 
- * Plone
+* Plone
 
 Submit a patch adding more and I'll include it.
 
-## Using
-
+Usage
+~~~~~
 Open the command palette (cmd-shift-p) and choose "Search PloneDocs" while your cursor is on a word.
 
 Make a keybind by adding the following to your `User/Default (OSX).sublime-keymap`:
@@ -19,29 +21,27 @@ Make a keybind by adding the following to your `User/Default (OSX).sublime-keyma
 
 (I don't like plugins automatically adding keybinds, okay.)
 
-## Installing
+Install
+-------
 
-### Without Git
+Without Git
+~~~~~~~~~~~
 
 Download the latest source zip from [github](https://github.com/svx/search_plone_docs/zipball/master) and extract the files to your Sublime Text "Packages" directory, into a new directory named Search PloneDocs.
 
-### With Git
+With Git
+~~~~~~~~
 
-### OSX
+OSX
+---
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
     $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
 
-### Linux (Ubuntu like distros)
+Linux (Ubuntu like distros)
+---------------------------
 
     $ cd ~/.config/sublime-text-2/Packages/
     $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
 
-### Windows 7:
-
-    Copy the directory to: "C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages"
-
-### Windows XP:
-
-    Copy the directory to: "C:\Documents and Settings\<username>\Application Data\Sublime Text 2\Packages"
 
