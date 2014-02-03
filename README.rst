@@ -34,13 +34,13 @@ With Git
 
 OSX
 +++
-::
+.. code::
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
     $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
 
 Linux (Ubuntu like distros)
 +++++++++++++++++++++++++++
-::
+.. code::
     $ cd ~/.config/sublime-text-2/Packages/
     $ git clone git://github.com/svx/search_plone_docs.git "Search PloneDocs"
 
