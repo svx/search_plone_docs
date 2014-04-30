@@ -15,7 +15,7 @@ import subprocess
 import webbrowser
 
 def SearchFor(text):
-    url = 'http://developer.plone.org/search.html?q=' + text.replace(' ','%20')
+    url = 'http://docs.plone.org/search.html?q=' + text.replace(' ','%20')
     webbrowser.open_new_tab(url)
 
 class plonedocsSearchSelectionCommand(sublime_plugin.TextCommand):
